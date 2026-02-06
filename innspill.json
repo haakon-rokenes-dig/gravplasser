@@ -1,0 +1,621 @@
+{
+  "metadata": {
+    "antall_innspill": 42,
+    "beskrivelse": "Høringsinnspill om aktiviteter på gravplasser i Oslo – kun strukturert data",
+    "merk": "All originaltekst og persondata er fjernet. Kun kategori, gravplass og holdning."
+  },
+  "innspill": [
+    {
+      "id": 1,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "kulturformidling",
+        "lysvandring",
+        "historisk vandring"
+      ]
+    },
+    {
+      "id": 2,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "lysvandring",
+        "musikk",
+        "kulturformidling"
+      ]
+    },
+    {
+      "id": 3,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "kritisk",
+      "tema": [
+        "vedlikehold"
+      ]
+    },
+    {
+      "id": 4,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "informasjon",
+        "kjente personer",
+        "trosretninger"
+      ]
+    },
+    {
+      "id": 5,
+      "steder": [
+        "Voksen kirkegård"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "informasjon",
+        "trosretninger",
+        "kulturhistorie",
+        "turområde"
+      ]
+    },
+    {
+      "id": 6,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "belysning",
+        "tilgjengelighet"
+      ]
+    },
+    {
+      "id": 7,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "natur",
+        "botanikk",
+        "informasjon"
+      ]
+    },
+    {
+      "id": 8,
+      "steder": [
+        "Vår Frelsers gravlund",
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "QR-koder",
+        "omvisning",
+        "barneaktiviteter",
+        "natur",
+        "belysning",
+        "forskning"
+      ]
+    },
+    {
+      "id": 9,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "QR-koder",
+        "digital formidling",
+        "barn og unge"
+      ]
+    },
+    {
+      "id": 10,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "digital formidling",
+        "lydopplevelse",
+        "app"
+      ]
+    },
+    {
+      "id": 11,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "sterkt negativ",
+      "tema": [
+        "bevare ro"
+      ]
+    },
+    {
+      "id": 12,
+      "steder": [
+        "Vår Frelsers gravlund"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "meditasjon",
+        "kafé",
+        "musikk",
+        "vandring",
+        "rusproblematikk"
+      ]
+    },
+    {
+      "id": 13,
+      "steder": [
+        "Ullern kirkegård"
+      ],
+      "holdning": "kritisk",
+      "tema": [
+        "vedlikehold",
+        "skilting",
+        "kjente personer"
+      ]
+    },
+    {
+      "id": 14,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "ambivalent",
+      "tema": [
+        "bevare ro",
+        "informasjon",
+        "digital formidling",
+        "slektsforskning"
+      ]
+    },
+    {
+      "id": 15,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "QR-koder",
+        "slektshistorie"
+      ]
+    },
+    {
+      "id": 16,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "omvisning",
+        "kulturhistorie"
+      ]
+    },
+    {
+      "id": 17,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "historisk vandring",
+        "kultur",
+        "musikk",
+        "litteratur"
+      ]
+    },
+    {
+      "id": 18,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "historisk vandring",
+        "lokalhistorie"
+      ]
+    },
+    {
+      "id": 19,
+      "steder": [
+        "Voksen kirkegård"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "foredrag",
+        "trosretninger",
+        "gravskikker"
+      ]
+    },
+    {
+      "id": 20,
+      "steder": [
+        "Østre Aker kirkegård"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "botanikk",
+        "omvisning"
+      ]
+    },
+    {
+      "id": 21,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "natur",
+        "biologisk mangfold"
+      ]
+    },
+    {
+      "id": 22,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "sterkt negativ",
+      "tema": [
+        "bevare ro"
+      ]
+    },
+    {
+      "id": 23,
+      "steder": [
+        "Nordre gravlund"
+      ],
+      "holdning": "sterkt negativ",
+      "tema": [
+        "bevare ro"
+      ]
+    },
+    {
+      "id": 24,
+      "steder": [
+        "Vestre gravlund",
+        "Alfaset gravlund"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "pedagogikk",
+        "krigshistorie",
+        "barn og unge"
+      ]
+    },
+    {
+      "id": 25,
+      "steder": [
+        "Østre Aker kirkegård"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "informasjon",
+        "botanikk",
+        "kulturhistorie"
+      ]
+    },
+    {
+      "id": 26,
+      "steder": [
+        "Ris kirkegård"
+      ],
+      "holdning": "negativ",
+      "tema": [
+        "bevare ro"
+      ]
+    },
+    {
+      "id": 27,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "nøytral",
+      "tema": [
+        "vedlikehold"
+      ]
+    },
+    {
+      "id": 28,
+      "steder": [
+        "Alfaset gravlund",
+        "Vår Frelsers gravlund",
+        "Vestre gravlund",
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "skilting",
+        "QR-koder",
+        "trosretninger",
+        "omvisning",
+        "digital formidling"
+      ]
+    },
+    {
+      "id": 29,
+      "steder": [
+        "Nordre gravlund"
+      ],
+      "holdning": "nøytral",
+      "tema": [
+        "tilgjengelighet",
+        "infrastruktur"
+      ]
+    },
+    {
+      "id": 30,
+      "steder": [
+        "Høybråten kirkegård"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "lokalhistorie",
+        "foredrag",
+        "vandring",
+        "konsert",
+        "gravvern"
+      ]
+    },
+    {
+      "id": 31,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "lydformidling",
+        "digital formidling",
+        "minnekultur"
+      ]
+    },
+    {
+      "id": 32,
+      "steder": [
+        "Vestre gravlund",
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "digital formidling",
+        "video"
+      ]
+    },
+    {
+      "id": 33,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "omvisning",
+        "kjente personer"
+      ]
+    },
+    {
+      "id": 34,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "omvisning",
+        "byhistorie"
+      ]
+    },
+    {
+      "id": 35,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "digital formidling",
+        "app"
+      ]
+    },
+    {
+      "id": 36,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "foredrag",
+        "kulturhistorie"
+      ]
+    },
+    {
+      "id": 37,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "QR-koder",
+        "digital formidling",
+        "video"
+      ]
+    },
+    {
+      "id": 38,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "kunst",
+        "kulturarrangement"
+      ]
+    },
+    {
+      "id": 39,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "musikk",
+        "kulturarrangement"
+      ]
+    },
+    {
+      "id": 40,
+      "steder": [
+        "Alfaset gravlund"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "lysvandring"
+      ]
+    },
+    {
+      "id": 41,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "minnestund",
+        "seremoni"
+      ]
+    },
+    {
+      "id": 42,
+      "steder": [
+        "alle"
+      ],
+      "holdning": "positiv",
+      "tema": [
+        "omvisning",
+        "kulturhistorie"
+      ]
+    }
+  ],
+  "oppsummering": {
+    "holdninger": {
+      "positiv": 32,
+      "ambivalent": 1,
+      "nøytral": 2,
+      "kritisk": 2,
+      "negativ": 1,
+      "sterkt_negativ": 4
+    },
+    "mest_nevnte_steder": [
+      {
+        "sted": "alle",
+        "antall": 32
+      },
+      {
+        "sted": "Vår Frelsers gravlund",
+        "antall": 3
+      },
+      {
+        "sted": "Alfaset gravlund",
+        "antall": 3
+      },
+      {
+        "sted": "Vestre gravlund",
+        "antall": 3
+      },
+      {
+        "sted": "Østre Aker kirkegård",
+        "antall": 3
+      },
+      {
+        "sted": "Voksen kirkegård",
+        "antall": 2
+      },
+      {
+        "sted": "Nordre gravlund",
+        "antall": 2
+      },
+      {
+        "sted": "Høybråten kirkegård",
+        "antall": 1
+      },
+      {
+        "sted": "Ullern kirkegård",
+        "antall": 1
+      },
+      {
+        "sted": "Ris kirkegård",
+        "antall": 1
+      }
+    ],
+    "mest_etterspurte_aktiviteter": [
+      {
+        "aktivitet": "Historisk omvisning / guidet vandring",
+        "antall": 15
+      },
+      {
+        "aktivitet": "Digital formidling (QR-koder, app, video, lyd)",
+        "antall": 14
+      },
+      {
+        "aktivitet": "Informasjon om kjente gravlagte",
+        "antall": 10
+      },
+      {
+        "aktivitet": "Foredrag og kulturhistorie",
+        "antall": 7
+      },
+      {
+        "aktivitet": "Bevare ro / mot aktiviteter",
+        "antall": 5
+      },
+      {
+        "aktivitet": "Konsert og musikk",
+        "antall": 5
+      },
+      {
+        "aktivitet": "Natur og botanikk",
+        "antall": 5
+      },
+      {
+        "aktivitet": "Lysvandring",
+        "antall": 4
+      },
+      {
+        "aktivitet": "Vedlikehold og oppgradering",
+        "antall": 4
+      },
+      {
+        "aktivitet": "Kunstutstilling i kapell",
+        "antall": 2
+      },
+      {
+        "aktivitet": "Minnestund og seremoni",
+        "antall": 2
+      },
+      {
+        "aktivitet": "Skolebesøk og krigsgraver",
+        "antall": 1
+      },
+      {
+        "aktivitet": "Belysning og tilgjengelighet",
+        "antall": 2
+      }
+    ],
+    "sentrale_spenninger": [
+      {
+        "tema": "Aktivitet vs. ro",
+        "beskrivelse": "Hovedspenningen i innspillene. Flertallet (32 av 42) ønsker ulike former for aktivitet, mens et tydelig mindretall (5 innspill) er sterkt imot. De negative innspillene er gjennomgående personlige og emosjonelle, fra mennesker som har mistet nære familiemedlemmer."
+      },
+      {
+        "tema": "Fysisk vs. digital formidling",
+        "beskrivelse": "Flere innspill foreslår digitale løsninger (QR-koder, apper, videoer, lydfortellinger) som et kompromiss – formidling uten fysisk forstyrrelse. Dette kan adressere bekymringene fra de som ønsker ro."
+      },
+      {
+        "tema": "Kjente personer vs. gravplassen som helhet",
+        "beskrivelse": "Noen ønsker fokus på kjente gravlagtes liv og virke, mens andre (særlig #42) eksplisitt ønsker fokus på gravplassen som kulturminne og hageanlegg – ikke enkeltpersoner."
+      }
+    ]
+  }
+}

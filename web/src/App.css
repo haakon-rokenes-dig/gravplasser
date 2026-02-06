@@ -1,0 +1,232 @@
+/* Oslo kommune / Punkt overrides */
+:root {
+  --okblue-dark: #2a2859;
+  --okblue-warm: #1f42aa;
+  --okcyan: #6fe9ff;
+  --okgreen-dark: #034b45;
+  --okgreen: #43f8b6;
+  --okred: #ff8274;
+  --okyellow: #f9c66b;
+  --okpurple: #e0adff;
+  --okbeige-light: #f8f0dd;
+  --okbeige-dark: #d0bfae;
+  --okneutral-100: #f9f9f9;
+  --okneutral-200: #f2f2f2;
+  --okneutral-800: #2c2c2c;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--okneutral-100);
+  color: var(--okneutral-800);
+}
+
+/* ---- Header ---- */
+.app-header {
+  background: var(--okblue-dark);
+  color: white;
+  padding: 32px 32px 24px;
+}
+
+.app-header h1 {
+  margin-bottom: 4px;
+}
+
+.app-header p {
+  opacity: 0.75;
+}
+
+/* ---- Highlights ---- */
+.highlights {
+  padding: 24px 0 8px;
+}
+
+.highlights h2 {
+  margin-bottom: 16px;
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.highlight-card {
+  background: white;
+  border-left: 4px solid var(--okblue-dark);
+  padding: 16px 20px;
+}
+
+.highlight-tema {
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: var(--okneutral-800);
+}
+
+.highlight-desc {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* ---- Description ---- */
+.description {
+  max-width: 51rem;
+  padding: 16px 0 8px;
+  color: #555;
+}
+
+.description p + p {
+  margin-top: 8px;
+}
+
+.description h2 {
+  color: var(--okneutral-800);
+  margin-bottom: 8px;
+}
+
+/* ---- Filter sections ---- */
+.filters {
+  padding: 0 0 32px;
+}
+
+.filter-section {
+  margin-bottom: 16px;
+}
+
+.filter-label {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-btn {
+  border: 2px solid #ccc;
+  border-radius: 0;
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  background: white;
+  transition: all 0.12s ease;
+}
+
+.filter-btn:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.filter-btn.active {
+  color: white !important;
+  border-color: transparent;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.filter-btn.reset {
+  background: var(--okneutral-200);
+  border-color: #999;
+  color: var(--okneutral-800);
+}
+
+.filter-btn.reset.active {
+  background: var(--okblue-dark);
+  color: white !important;
+  border-color: var(--okblue-dark);
+}
+
+/* ---- Legend ---- */
+.legend {
+  display: flex;
+  gap: 24px;
+  padding: 16px 0 8px;
+  font-size: 13px;
+  color: #888;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-swatch {
+  width: 12px;
+  height: 12px;
+}
+
+/* ---- Chart ---- */
+.chart-container {
+  width: 100%;
+  padding: 0 0 48px;
+}
+
+.chart-container svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sankey-node rect {
+  transition: opacity 0.4s ease, fill 0.4s ease;
+}
+
+.sankey-node text {
+  transition: opacity 0.4s ease, fill 0.4s ease;
+  user-select: none;
+}
+
+.sankey-node.clickable {
+  cursor: pointer;
+}
+
+.sankey-node.clickable:hover rect {
+  filter: brightness(1.15);
+}
+
+.sankey-link path {
+  transition: stroke-opacity 0.4s ease, stroke 0.4s ease;
+  fill: none;
+}
+
+.sankey-link:hover path {
+  stroke-opacity: 0.7 !important;
+}
+
+/* ---- Tooltip ---- */
+.tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: var(--okblue-dark);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  max-width: 320px;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+
+.tooltip.visible {
+  opacity: 1;
+}
+
+.tooltip .label {
+  font-weight: 700;
+}
+
+.tooltip .detail {
+  opacity: 0.7;
+  font-size: 11px;
+}
