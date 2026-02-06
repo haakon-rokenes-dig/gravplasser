@@ -136,7 +136,7 @@ export default function App() {
   const [filter, setFilter] = useState(null)
 
   useEffect(() => {
-    fetch('/innspill.json')
+    fetch(import.meta.env.BASE_URL + 'innspill.json')
       .then(r => r.json())
       .then(json => {
         setRawData(json.innspill)
